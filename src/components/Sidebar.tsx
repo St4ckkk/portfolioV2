@@ -57,10 +57,10 @@ const Sidebar = ({ isDarkMode }: SidebarProps) => {
           </div>
 
           <div className="flex flex-col justify-center">
-            <h1 className="text-2xl font-bold mb-1 text-[#c9d1d9]">
+            <h1 className={`text-2xl font-bold mb-1 ${isDarkMode ? 'text-[#c9d1d9]' : 'text-gray-900'}`}>
               Keyan Andy Delgado
             </h1>
-            <p className="text-sm font-medium text-[#8b949e]">
+            <p className={`text-sm font-medium ${isDarkMode ? 'text-[#8b949e]' : 'text-gray-600'}`}>
               Full Stack Developer
             </p>
           </div>
