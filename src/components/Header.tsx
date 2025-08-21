@@ -22,7 +22,6 @@ const Header = ({ isDarkMode, onToggleTheme }: HeaderProps) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState('about');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
 
   const navigationTabs = [
     { id: 'about', label: 'About', icon: 'user', sectionId: 'about-section' },
@@ -75,7 +74,6 @@ const Header = ({ isDarkMode, onToggleTheme }: HeaderProps) => {
       setActiveTab(matchingTab.id);
       scrollToSection(matchingTab.sectionId);
       setSearchQuery('');
-      setIsMobileSearchOpen(false);
     } else {
       const fuzzyMatch = navigationTabs.find(tab => {
         const tabLabel = tab.label.toLowerCase();
@@ -104,7 +102,6 @@ const Header = ({ isDarkMode, onToggleTheme }: HeaderProps) => {
         setActiveTab(fuzzyMatch.id);
         scrollToSection(fuzzyMatch.sectionId);
         setSearchQuery('');
-        setIsMobileSearchOpen(false);
       }
     }
   };
