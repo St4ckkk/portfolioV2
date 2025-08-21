@@ -121,7 +121,7 @@ const Header = ({ isDarkMode, onToggleTheme }: HeaderProps) => {
   };
 
   return (
-    <header className={`sticky top-0 z-50 border-b ${
+    <header className={`sticky top-0 z-50 border-b theme-transition ${
       isDarkMode 
         ? 'bg-[#0d1117] border-[#30363d] text-[#c9d1d9]' 
         : 'bg-white border-gray-200 text-gray-900'

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useTheme } from './hooks/useTheme'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import About from './components/About'
@@ -10,14 +10,10 @@ import Skills from './components/Skills'
 import Footer from './components/Footer'
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true)
-
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode)
-  }
+  const { isDarkMode, toggleTheme } = useTheme()
 
   return (
-    <div className={`${isDarkMode ? 'bg-[#212830] text-[#c9d1d9]' : 'bg-gray-50 text-gray-900'} min-h-screen`}>
+    <div className={`${isDarkMode ? 'bg-[#212830] text-[#c9d1d9]' : 'bg-gray-50 text-gray-900'} min-h-screen theme-transition`}>
       <Header isDarkMode={isDarkMode} onToggleTheme={toggleTheme} />
       <div className="max-w-full mx-auto px-4 py-8">
         <div className="flex justify-center">

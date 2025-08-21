@@ -28,4 +28,8 @@
   .gradient-text {
     @apply bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent;
   }
+  
+  .theme-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
 }
