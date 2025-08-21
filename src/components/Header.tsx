@@ -3,12 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBars,
   faSearch,
-  faUsers,
-  faCloudArrowDown,
-  faPlus,
-  faBell,
   faCodeBranch,
-  faInbox,
   faSun,
   faMoon,
   faUser,
@@ -17,7 +12,6 @@ import {
   faLaptopCode,
   faTimes
 } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 interface HeaderProps {
   isDarkMode: boolean;

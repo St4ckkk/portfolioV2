@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHammer } from "@fortawesome/free-solid-svg-icons";
 import AsciiArt from "./AsciiArt";
 import GithubCalendar from "react-github-calendar";
 

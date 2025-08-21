@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faExternalLinkAlt, faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { projects as initialProjects } from '../constants/projects'
 
 interface ProjectsProps {
