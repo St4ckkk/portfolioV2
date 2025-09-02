@@ -84,12 +84,11 @@ const Experience = ({ isDarkMode }: ExperienceProps) => {
 
       <div className="text-center mt-6">
         <a
-          href="https://keyanandydelgadodev.vercel.app/delgado_resume.pdf"
+          href="/delgado_resume.pdf"
           target="_blank"
-          rel="noopener noreferrer"
           className={`px-4 py-2 inline-block rounded-lg border ${isDarkMode ? 'border-[#30363d] hover:border-[#58a6ff] text-[#58a6ff]' : 'border-gray-300 hover:border-blue-400 text-blue-600'} transition-colors`}
         >
-          View Resume
+          View Resume🔗
         </a>
       </div>
     </div>
