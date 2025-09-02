@@ -89,7 +89,7 @@ const Sidebar = ({ isDarkMode }: SidebarProps) => {
           </div>
         </div>
 
-        <div className="space-y-3 mb-6">
+        <div className="space-y-3 mb-6 ">
           <div className="flex items-center gap-2">
             <FontAwesomeIcon icon={faLocationDot} className={`w-4 h-4 ${isDarkMode ? 'text-[#c9d1d9]' : 'text-gray-700'}`} />
             <span className={`text-sm ${isDarkMode ? 'text-[#c9d1d9]' : 'text-gray-700'}`}>
@@ -121,7 +121,6 @@ const Sidebar = ({ isDarkMode }: SidebarProps) => {
 
         <hr className={`border-t ${isDarkMode ? 'border-[#30363d]' : 'border-gray-300'} mb-5`} />
 
-        {/* Achievements Section */}
         <div className="mt-5">
           <h3 className={`font-semibold mb-4 ${isDarkMode ? "text-[#c9d1d9]" : "text-gray-900"}`}>
             Achievements

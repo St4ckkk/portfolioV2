@@ -2,67 +2,91 @@ export const projects = [
   {
     id: 1,
     name: 'portfolio',
-    description: 'My personal portfolio website built with React and TypeScript',
+    description:
+      'My personal portfolio website built with React and TypeScript',
     languages: ['React', 'TypeScript', 'Tailwind CSS'],
     languageColors: ['bg-blue-500', 'bg-blue-600', 'bg-cyan-500'],
     isPublic: true,
-    repoUrl: 'https://github.com/keyanandydelgado/portfolio',
+    repoUrl: 'https://github.com/St4ckkk/portfolioV2',
     liveUrl: 'https://keyanandydelgado.vercel.app',
-    isLive: true
+    isLive: true,
   },
   {
     id: 2,
     name: 'Jobility',
     description: 'Job search and management platform with real-time updates',
     languages: ['Dart', 'Flutter', 'Firebase', 'NodeJS'],
-    languageColors: ['bg-blue-500', 'bg-blue-400', 'bg-orange-500', 'bg-green-500'],
+    languageColors: [
+      'bg-blue-500',
+      'bg-blue-400',
+      'bg-orange-500',
+      'bg-green-500',
+    ],
     isPublic: true,
-    repoUrl: 'https://github.com/keyanandydelgado/jobility',
+    repoUrl: 'https://github.com/St4ckkk/jobilityV2',
     liveUrl: null,
-    isLive: false
+    isLive: false,
   },
   {
     id: 3,
     name: 'Movie App',
-    description: 'A modern movie discovery application with search and filtering capabilities',
+    description:
+      'A modern movie discovery application with search and filtering capabilities',
     languages: ['React', 'Tailwind CSS', 'TMDB API'],
     languageColors: ['bg-blue-500', 'bg-cyan-500', 'bg-orange-500'],
     isPublic: true,
     repoUrl: 'https://github.com/St4ckkk/movie-app',
     liveUrl: 'https://movie-app-eta-topaz.vercel.app/',
-    isLive: true
+    isLive: true,
   },
   {
     id: 4,
     name: 'FindMyBhouse',
     description: 'Real estate search application with advanced filtering',
     languages: ['JavaScript', 'React', 'Node.js', 'MongoDB'],
-    languageColors: ['bg-yellow-400', 'bg-blue-500', 'bg-green-500', 'bg-green-600'],
+    languageColors: [
+      'bg-yellow-400',
+      'bg-blue-500',
+      'bg-green-500',
+      'bg-green-600',
+    ],
     isPublic: true,
-    repoUrl: 'https://github.com/keyanandydelgado/findmybhouse',
+    repoUrl: 'https://github.com/St4ckkk/FindMyBhouse',
     liveUrl: null,
-    isLive: false
+    isLive: false,
   },
   {
     id: 5,
     name: 'React Dashboard Template',
-    description: 'A modern admin dashboard template inspired by Nice Admin with comprehensive UI components',
+    description:
+      'A modern admin dashboard template inspired by Nice Admin with comprehensive UI components',
     languages: ['React', 'JavaScript', 'Vite', 'Tailwind CSS'],
-    languageColors: ['bg-blue-500', 'bg-yellow-400', 'bg-purple-500', 'bg-cyan-500'],
+    languageColors: [
+      'bg-blue-500',
+      'bg-yellow-400',
+      'bg-purple-500',
+      'bg-cyan-500',
+    ],
     isPublic: true,
     repoUrl: 'https://github.com/St4ckkk/react-dashboard-template',
     liveUrl: 'https://st4ckkk-dashboard.vercel.app/',
-    isLive: true
+    isLive: true,
   },
   {
     id: 6,
     name: 'MaeVisual',
-    description: 'A portfolio website for photography freelancing with smooth animations and modern design',
+    description:
+      'A portfolio website for photography freelancing with smooth animations and modern design',
     languages: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
-    languageColors: ['bg-blue-500', 'bg-cyan-500', 'bg-purple-500', 'bg-pink-500'],
+    languageColors: [
+      'bg-blue-500',
+      'bg-cyan-500',
+      'bg-purple-500',
+      'bg-pink-500',
+    ],
     isPublic: true,
     repoUrl: 'https://github.com/St4ckkk/MaeVisual',
     liveUrl: 'https://maevisual.vercel.app/',
-    isLive: true
-  }
+    isLive: true,
+  },
 ];

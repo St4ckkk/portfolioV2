@@ -6,7 +6,7 @@ import Education from './components/Education'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
-// import Contact from './components/Contact'
+
 import Footer from './components/Footer'
 
 function App() {
@@ -18,12 +18,12 @@ function App() {
       <div className="max-w-full mx-auto px-4 py-8">
         <div className="flex justify-center">
           <div className="flex flex-col lg:flex-row gap-6 max-w-[1500px] w-full">
-            {/* Sidebar - Hidden on mobile, shown on desktop */}
+        
             <div className="hidden lg:block w-80 flex-shrink-0">
               <Sidebar isDarkMode={isDarkMode} />
             </div>
             
-            {/* Mobile Sidebar - Shown only on mobile */}
+          
             <div className="lg:hidden mb-6">
               <Sidebar isDarkMode={isDarkMode} />
             </div>
@@ -45,7 +45,7 @@ function App() {
                 <div id="skills-section">
                   <Skills isDarkMode={isDarkMode} />
                 </div>
-                {/* <Contact isDarkMode={isDarkMode} /> */}
+  
               </div>
             </div>
           </div>

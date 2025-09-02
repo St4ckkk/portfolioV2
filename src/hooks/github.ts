@@ -66,7 +66,6 @@ export const useGitHubContributions = (username: string) => {
     const fetchContributions = async () => {
       try {
         setLoading(true);
-        // Using a public GitHub contributions API
         const response = await fetch(`https://github-contributions-api.jogruber.de/v4/${username}?y=last`);
         
         if (!response.ok) {
